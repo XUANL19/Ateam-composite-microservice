@@ -9,26 +9,26 @@ CORS(app)
 
 BLOG_PROPS = {
     'microservice': 'blog microservice',
-    'api': 'http://localhost:5012/'
-#     'api': 'http://18.233.154.238:5012/'
+    # 'api': 'http://localhost:5012/'
+    'api': 'http://44.201.53.152:5012/'
 }
 
 BLOG_NUMBER_PROPS = {
     'microservice': 'blog microservice',
-    'api': 'http://localhost:5012/blognumber'
-#     'api': 'http://18.233.154.238:5012/blognumber'
+    # 'api': 'http://localhost:5012/blognumber'
+    'api': 'http://44.201.53.152:5012/blognumber'
 }
 
 COMMENT_PROPS = {
     'microservice': 'comment microservice',
-    'api': 'http://localhost:5013/'
-#     'api': 'http://3.86.106.230:5013/'
+    # 'api': 'http://localhost:5013/'
+    'api': 'http://44.204.99.4:5013/'
 }
 
 COMMENT_BYUSER_PROPS = {
     'microservice': 'comment microservice',
-    'api': 'http://localhost:5013/commentnumber'
-#     'api': 'http://3.86.106.230:5013/commentnumber'
+    # 'api': 'http://localhost:5013/commentnumber'
+    'api': 'http://44.204.99.4:5013/commentnumber'
 }
 
 
