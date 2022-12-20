@@ -9,26 +9,30 @@ CORS(app)
 
 BLOG_PROPS = {
     'microservice': 'blog microservice',
-    # 'api': 'http://localhost:5012/'
-    'api': 'http://34.201.55.17:5012/'
+    # 'api': 'http://localhost:5012/'                                       # localhost
+    # 'api': 'http://34.201.55.17:5012/'                                    # EC2
+    'api': 'https://yk4ejx5p17.execute-api.us-east-1.amazonaws.com/dev/'    # api gateway
 }
 
 BLOG_NUMBER_PROPS = {
     'microservice': 'blog microservice',
     # 'api': 'http://localhost:5012/blognumber'
-    'api': 'http://34.201.55.17:5012/blognumber'
+    # 'api': 'http://34.201.55.17:5012/blognumber'
+    'api': 'https://yk4ejx5p17.execute-api.us-east-1.amazonaws.com/dev/blognumber'
 }
 
 COMMENT_PROPS = {
     'microservice': 'comment microservice',
     # 'api': 'http://localhost:5013/'
-    'api': 'http://54.147.113.194:5013/'
+    # 'api': 'http://54.147.113.194:5013/'
+    'api': 'https://yk4ejx5p17.execute-api.us-east-1.amazonaws.com/dev/'
 }
 
 COMMENT_BYUSER_PROPS = {
     'microservice': 'comment microservice',
     # 'api': 'http://localhost:5013/commentnumber'
-    'api': 'http://54.147.113.194:5013/commentnumber'
+    # 'api': 'http://54.147.113.194:5013/commentnumber'
+    'api': 'https://yk4ejx5p17.execute-api.us-east-1.amazonaws.com/dev/commentnumber'
 }
 
 
