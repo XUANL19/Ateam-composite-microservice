@@ -9,46 +9,26 @@ CORS(app)
 
 BLOG_PROPS = {
     'microservice': 'blog microservice',
-<<<<<<< HEAD
     # 'api': 'http://localhost:5012/'
     'api': 'http://34.201.55.17:5012/'
-=======
-    'api': 'http://localhost:5012/'
-    # 'api': 'http://18.233.154.238:5012/'
->>>>>>> Google-oauth
 }
 
 BLOG_NUMBER_PROPS = {
     'microservice': 'blog microservice',
-<<<<<<< HEAD
     # 'api': 'http://localhost:5012/blognumber'
     'api': 'http://34.201.55.17:5012/blognumber'
-=======
-    'api': 'http://localhost:5012/blognumber'
-    # 'api': 'http://18.233.154.238:5012/blognumber'
->>>>>>> Google-oauth
 }
 
 COMMENT_PROPS = {
     'microservice': 'comment microservice',
-<<<<<<< HEAD
     # 'api': 'http://localhost:5013/'
     'api': 'http://54.147.113.194:5013/'
-=======
-    'api': 'http://localhost:5013/'
-    # 'api': 'http://3.86.106.230:5013/'
->>>>>>> Google-oauth
 }
 
 COMMENT_BYUSER_PROPS = {
     'microservice': 'comment microservice',
-<<<<<<< HEAD
     # 'api': 'http://localhost:5013/commentnumber'
     'api': 'http://54.147.113.194:5013/commentnumber'
-=======
-    'api': 'http://localhost:5013/commentnumber'
-    # 'api': 'http://3.86.106.230:5013/commentnumber'
->>>>>>> Google-oauth
 }
 
 
