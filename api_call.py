@@ -60,7 +60,7 @@ def get_allposts_and_commentnum():
     allposts = allposts_response.json()
     
     for each in allposts:
-        print(each)
+        print("each:", each)
         blog_id = str(each['unique_blog_id'])
         commentnum = requests.get(COMMENT_PROPS['api'] + 'posts/' + blog_id + '/getcommentsnum').text
         each['commentnum'] = commentnum  
